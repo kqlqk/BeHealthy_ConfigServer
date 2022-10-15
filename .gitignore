@@ -1,5 +1,6 @@
 target/
 props/
+src/main/resources/application.properties
 ### IntelliJ IDEA ###
 .idea
 *.iws
