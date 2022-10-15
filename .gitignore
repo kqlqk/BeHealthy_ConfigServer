@@ -1,4 +1,5 @@
 target/
+props/
 ### IntelliJ IDEA ###
 .idea
 *.iws
