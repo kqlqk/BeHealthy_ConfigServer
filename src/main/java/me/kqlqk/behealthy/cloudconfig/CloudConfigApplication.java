@@ -13,9 +13,11 @@ import java.util.Map;
 public class CloudConfigApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
+        System.out.println("********************");
         for (Map.Entry<String, String> entry : System.getenv().entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
+        System.out.println("********************");
 
         SpringApplication.run(CloudConfigApplication.class, args);
     }
