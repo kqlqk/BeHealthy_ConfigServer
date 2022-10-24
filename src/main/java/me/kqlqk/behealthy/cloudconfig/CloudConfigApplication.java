@@ -8,6 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableConfigServer
 public class CloudConfigApplication extends SpringBootServletInitializer {
+
     public static void main(String[] args) {
         SpringApplication.run(CloudConfigApplication.class, args);
     }
